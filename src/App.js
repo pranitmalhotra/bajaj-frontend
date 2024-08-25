@@ -7,7 +7,7 @@ function App() {
   const [error, setError] = useState('');
   const [selectedOptions, setSelectedOptions] = useState([]);
 
-  const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+  const API_URL = process.env.REACT_APP_API_URL || 'https://bajaj-backend-beta-one.vercel.app/';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
